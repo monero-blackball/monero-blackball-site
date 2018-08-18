@@ -1,5 +1,3 @@
-## Welcome to GitHub Pages
-
 Monero is a secure, private cryptocurrency. You can learn more about Monero at [getmonero.org](https://getmonero.org).
 
 `monero-blockchain-blackball` is a privacy-enhancing tool that can increase the effectiveness of ring signatures. This tool can be used to avoid including outputs that are known to be spent in other transactions. If you exclude these known-spent outputs, other higher-quality outputs can be included in your ring signatures, thus improving your privacy.
@@ -8,7 +6,7 @@ This website contains several resources for running the tool yourself or downloa
 
 Keep in mind that this blackball database is only one tool you can use to improve your privacy on Monero. It is not a perfect solution, and it is typically a lagging benefit. For example, if there is an upcoming chain split, a blackball database will provide some protection a few days after the split, but it will not be especially helpful before the split or shortly after. When in doubt, play it safe.
 
-#Running monero-blockchain-blackball
+# Running monero-blockchain-blackball
 
 You can run the `monero-blockchain-blackball` tool, available in Monero 0.12 (May 2018) and later, to build a local database. This is strongly recommended if you can take the time to do it.
 
@@ -16,19 +14,19 @@ Unfortunately the tool is a little clunky and slow, so expect it to have some is
 
 To run the tool, navigate to the latest CLI or GUI tools available on [getmonero.org](https://getmonero.org/downloads). You should see a tool called `monero-blockchain-blackball`. Open a terminal/command prompt for the following operating systems. You can optionally append `--check-subsets` to perform a more verbose test for a significant decrease in performance.
 
-##Linux / MacOS
+## Linux / MacOS
 
 `monero-blockchain-blackball ~/.bitmonero/lmdb /path/to/other/blockchain/database`
 
 Example: `monero-blockchain-blackball ~/.bitmonero/lmdb /home/monero_fork/lmdb`
 
-##Windows
+## Windows
 
 `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb \path\to\other\blockchain\database`
 
 Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\ProgramData\monero_fork\lmdb`
 
-#Downloading our blackball database
+# Downloading our blackball database
 
 [Direct download link](https://github.com)
 

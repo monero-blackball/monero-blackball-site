@@ -28,7 +28,7 @@ Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\Progr
 
 # Downloading our blackball database
 
-[Direct download link](https://drive.google.com/file/d/1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF/view?usp=sharing)
+[Direct download link](https://drive.google.com/uc?export=download&id=1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF)
 
 Size: 881876992 bytes (841 MB)
 
@@ -43,25 +43,3 @@ For Windows, this located in `C:\ProgramData\.shared-ringdb`
 For Mac OS X and Linux, this is located in `~/.shared-ringdb`
 
 Note that `~` is typically short for `home/<user-name>`
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```

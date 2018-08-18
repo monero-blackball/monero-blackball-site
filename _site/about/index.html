@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>About | Monero Blockchain Blackball Tools</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="About" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Resources to use the monero-blockchain-blackball database to increase privacy." />
+<meta property="og:description" content="Resources to use the monero-blockchain-blackball database to increase privacy." />
+<link rel="canonical" href="http://localhost:4000/about/" />
+<meta property="og:url" content="http://localhost:4000/about/" />
+<meta property="og:site_name" content="Monero Blockchain Blackball Tools" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/about/","name":"Monero Blockchain Blackball Tools","headline":"About","description":"Resources to use the monero-blockchain-blackball database to increase privacy.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Monero Blockchain Blackball Tools" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Monero Blockchain Blackball Tools</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/download/">Download</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Monero is a secure, private cryptocurrency. You can learn more about Monero at <a href="https://getmonero.org">getmonero.org</a>.</p>
+
+<p><code class="highlighter-rouge">monero-blockchain-blackball</code> is a privacy-enhancing tool that can increase the effectiveness of ring signatures. This tool can be used to avoid including outputs that are known to be spent in other transactions. If you exclude these known-spent outputs, other higher-quality outputs can be included in your ring signatures, thus improving your privacy.</p>
+
+<p>This website contains several resources for running the tool yourself or downloading a blackball database that we have generated. If you care about your privacy and do not want to trust us, then you should run the tool yourself. If you feel comfortable trusting me and favor convenience, you can download the database that we have prepared. It is possible that our database could reduce your privacy if we are acting maliciously.</p>
+
+<p>Keep in mind that this blackball database is only one tool you can use to improve your privacy on Monero. It is not a perfect solution, and it is typically a lagging benefit. For example, if there is an upcoming chain split, a blackball database will provide some protection a few days after the split, but it will not be especially helpful before the split or shortly after. When in doubt, play it safe.</p>
+
+<p>#Running monero-blockchain-blackball</p>
+
+<p>You can run the <code class="highlighter-rouge">monero-blockchain-blackball</code> tool, available in Monero 0.12 (May 2018) and later, to build a local database. This is strongly recommended if you can take the time to do it.</p>
+
+<p>Unfortunately the tool is a little clunky and slow, so expect it to have some issues and take several days. You should have already synced the full Monero blockchain locally any the blockchains of any Monero forks that you want to test against. You also need a decently fast CPU and hard drive. Luckily, the tool is getting better all the time.</p>
+
+<p>To run the tool, navigate to the latest CLI or GUI tools available on <a href="https://getmonero.org/downloads">getmonero.org</a>. You should see a tool called <code class="highlighter-rouge">monero-blockchain-blackball</code>. Open a terminal/command prompt for the following operating systems. You can optionally append <code class="highlighter-rouge">--check-subsets</code> to perform a more verbose test for a significant decrease in performance.</p>
+
+<p>##Linux / MacOS</p>
+
+<p><code class="highlighter-rouge">monero-blockchain-blackball ~/.bitmonero/lmdb /path/to/other/blockchain/database</code></p>
+
+<p>Example: <code class="highlighter-rouge">monero-blockchain-blackball ~/.bitmonero/lmdb /home/monero_fork/lmdb</code></p>
+
+<p>##Windows</p>
+
+<p><code class="highlighter-rouge">monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb \path\to\other\blockchain\database</code></p>
+
+<p>Example: <code class="highlighter-rouge">monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\ProgramData\monero_fork\lmdb</code></p>
+
+<p>#Downloading our blackball database</p>
+
+<p>If you would like to download our blackball database despite our warnings, you can do so <a href="/download">here</a>.</p>
+
+<p>Download the files, extract them, and place them in the <code class="highlighter-rouge">.shared-ring-db</code> folder. This folder should have two files: <code class="highlighter-rouge">data.mdb</code> and <code class="highlighter-rouge">lock.mdb</code>.</p>
+
+<p>This folder should be hidden by default, so make sure to configure your file explorer to view hidden folders or simply go there directly.</p>
+
+<p>For Windows, this located in <code class="highlighter-rouge">C:\ProgramData\.shared-ringdb</code></p>
+
+<p>For Mac OS X and Linux, this is located in <code class="highlighter-rouge">~/.shared-ringdb</code></p>
+
+<p>Note that <code class="highlighter-rouge">~</code> is typically short for <code class="highlighter-rouge">home/&lt;user-name&gt;</code></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Monero Blockchain Blackball Tools</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Monero Blockchain Blackball Tools</li><li><a class="u-email" href="mailto:contact@moneroblackball.com">contact@moneroblackball.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/N%2FA"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">N/A</span></a></li><li><a href="https://www.twitter.com/N%2FA"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">N/A</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Resources to use the monero-blockchain-blackball database to increase privacy.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

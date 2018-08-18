@@ -34,7 +34,7 @@ Size: 881876992 bytes (841 MB)
 
 SHA256: F0580F67BC52C2D4D7CC5F336997E21C492B2E874E2A94CCC04CD5214EC2F3CA
 
-Download the files, extract them, and place them in the `.shared-ring-db` folder. This folder should have two files: `data.mdb` and `lock.mdb`.
+Download the files, extract them, and place them in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
 
 This folder should be hidden by default, so make sure to configure your file explorer to view hidden folders or simply go there directly.
 
@@ -43,3 +43,5 @@ For Windows, this located in `C:\ProgramData\.shared-ringdb`
 For Mac OS X and Linux, this is located in `~/.shared-ringdb`
 
 Note that `~` is typically short for `home/<user-name>`
+
+In the GUI, you can go to Advanced -> Shared RingDB. Then under "Filename with outputs to blackball", select the `data.mdb` file you just downloaded and click `Load`.

@@ -31,6 +31,7 @@ Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\Progr
 [Direct download link](https://drive.google.com/file/d/1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF/view?usp=sharing)
 
 Size: 881876992 bytes (841 MB)
+
 SHA256: F0580F67BC52C2D4D7CC5F336997E21C492B2E874E2A94CCC04CD5214EC2F3CA
 
 Download the files, extract them, and place them in the `.shared-ring-db` folder. This folder should have two files: `data.mdb` and `lock.mdb`.

@@ -34,7 +34,7 @@ Size: 881876992 bytes (841 MB)
 
 SHA256: F0580F67BC52C2D4D7CC5F336997E21C492B2E874E2A94CCC04CD5214EC2F3CA
 
-Download the files, extract them, and place them in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
+Download the file and place it in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
 
 This folder should be hidden by default, so make sure to configure your file explorer to view hidden folders or simply go there directly.
 

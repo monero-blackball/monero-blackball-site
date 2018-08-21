@@ -30,9 +30,10 @@ Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\Progr
 
 [Direct download link](https://drive.google.com/uc?export=download&id=1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF)
 
-Size: 881876992 bytes (841 MB)
+This file contains outputs from the following:
 
-SHA256: F0580F67BC52C2D4D7CC5F336997E21C492B2E874E2A94CCC04CD5214EC2F3CA
+* Monero through August 2018
+* Monerov6 (XMO, XMC) through August 2018
 
 Download the file and place it in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
 

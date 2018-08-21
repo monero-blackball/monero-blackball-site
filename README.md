@@ -36,7 +36,7 @@ We offer two blackball databases. One is light, small, and only contains recent 
 
 This file contains outputs from the following:
 
-* Monero through 20 August 2018
+* Monero from early 2017 through 20 August 2018
 * Monerov6 (XMO, XMC) through 15 August 2018
 
 ## Verbose

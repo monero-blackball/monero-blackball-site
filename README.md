@@ -28,22 +28,29 @@ Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\Progr
 
 # Downloading our blackball databases
 
-We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. 
+We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. If you are worried about attacks on the network such as chain splits, check the dates to make sure they are recent. The RingCT Only database may be more effective, since it is smaller and can be updated more easily.
 
 ## RingCT Only
 
 [Direct download link](https://drive.google.com/uc?export=download&id=17nSNGKS36IR0EjsszAEZEBwJ2uXhH45r)
 
+This file contains outputs from the following:
+
+* Monero through 20 August 2018
+* Monerov6 (XMO, XMC) through 15 August 2018
+
 ## Verbose
 
 [Direct download link](https://drive.google.com/uc?export=download&id=1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF)
 
+This file contains outputs from the following:
+
+* Monero through 20 August 2018
+* Monerov6 (XMO, XMC) through 15 August 2018
+
 ## Instructions for Use
 
-Either file contains outputs from the following:
 
-* Monero through August 2018
-* Monerov6 (XMO, XMC) through August 2018
 
 Download the file and place it in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
 

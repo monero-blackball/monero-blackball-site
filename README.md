@@ -34,6 +34,8 @@ We offer two blackball databases. One is light, small, and only contains recent 
 
 [Direct download link](https://drive.google.com/uc?export=download&id=17nSNGKS36IR0EjsszAEZEBwJ2uXhH45r)
 
+[Signature file](https://drive.google.com/uc?export=download&id=10BMJIcQ-WyExAPssy8AInt5JZwLEg6OK)
+
 This file contains outputs from the following:
 
 * Monero from January 2017 through 20 August 2018
@@ -42,6 +44,8 @@ This file contains outputs from the following:
 ## Verbose
 
 [Direct download link](https://drive.google.com/uc?export=download&id=1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF)
+
+[Signature file](https://drive.google.com/uc?export=download&id=1IPGC-8K9lsH0sZlUlWTuxjIyPjVTosof)
 
 This file contains outputs from the following:
 

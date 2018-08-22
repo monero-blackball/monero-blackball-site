@@ -26,15 +26,17 @@ Example: `monero-blockchain-blackball ~/.bitmonero/lmdb /home/monero_fork/lmdb`
 
 Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\ProgramData\monero_fork\lmdb`
 
+Now, the file needs to be converted to work with the wallet software. Follow [these steps](https://monero.stackexchange.com/questions/8225/how-can-i-use-monero-blockchain-blackball-to-improve-my-privacy/) to convert the file to a wallet-readable format. This is honestly the most tricky part.
+
 # Downloading our blackball databases
 
-We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. If you are worried about attacks on the network such as chain splits, check the dates to make sure they are recent. The RingCT Only database may be more effective, since it is smaller and can be updated more easily.
+We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. If you are worried about attacks on the network such as chain splits, check the dates to make sure they are recent. The RingCT-only database may be more effective, since it is smaller and can be updated more easily.
 
 ## RingCT Only
 
-[Direct download link](https://drive.google.com/uc?export=download&id=17nSNGKS36IR0EjsszAEZEBwJ2uXhH45r)
+[Direct download link](https://drive.google.com/uc?export=download&id=1r1h9hEVzJN5XsUnsCnfGesWmzovRE3Qo)
 
-[Signature file](https://drive.google.com/uc?export=download&id=10BMJIcQ-WyExAPssy8AInt5JZwLEg6OK)
+[Signature file](https://drive.google.com/uc?export=download&id=1-HCabvc9CNQnb87msJFrbSwx83OKPCbc)
 
 This file contains outputs from the following:
 
@@ -43,9 +45,9 @@ This file contains outputs from the following:
 
 ## Verbose
 
-[Direct download link](https://drive.google.com/uc?export=download&id=1vMuH-bGUCeeSHVvr0CwivrP95CCA1zBF)
+[Direct download link](https://drive.google.com/uc?export=download&id=1zPer9BqsIno8ZI_RMQuRFehiAdx8kbyZ)
 
-[Signature file](https://drive.google.com/uc?export=download&id=1IPGC-8K9lsH0sZlUlWTuxjIyPjVTosof)
+[Signature file](https://drive.google.com/uc?export=download&id=1yr0yhWSmK4Ng1IAY8RDlY048OAZ0uoQo)
 
 This file contains outputs from the following:
 
@@ -54,16 +56,16 @@ This file contains outputs from the following:
 
 ## Instructions for Use
 
+Download the file and place it anywhere.
 
+In the GUI, you can go to Advanced -> Shared RingDB. Then under "Filename with outputs to blackball", select the `rct-only.txt` or `all.txt` file you just downloaded and click `Load`.
 
-Download the file and place it in the `.shared-ring-db` folder. You may need to overwrite the `data.mdb` file.
+In the CLI, run `blackball <filename> add`
 
-This folder should be hidden by default, so make sure to configure your file explorer to view hidden folders or simply go there directly.
+# More Information
 
-For Windows, this located in `C:\ProgramData\.shared-ringdb`
+https://monero.stackexchange.com/questions/10039/how-can-i-import-a-blackball-database-to-improve-my-privacy/
 
-For Mac OS X and Linux, this is located in `~/.shared-ringdb`
+https://monero.stackexchange.com/questions/8225/how-can-i-use-monero-blockchain-blackball-to-improve-my-privacy/
 
-Note that `~` is typically short for `home/<user-name>`
-
-In the GUI, you can go to Advanced -> Shared RingDB. Then under "Filename with outputs to blackball", select the `data.mdb` file you just downloaded and click `Load`.
+Twitter: [@JEhrenhofer](https://twitter.com/JEhrenhofer)

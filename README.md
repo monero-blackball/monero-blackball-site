@@ -64,6 +64,8 @@ In the GUI, you can go to Advanced -> Shared RingDB. Then under "Filename with o
 
 In the CLI, run `blackball <filename> add`
 
+Note that the file path in the wallet must not contain any spaces.
+
 # More Information
 
 https://monero.stackexchange.com/questions/10039/how-can-i-import-a-blackball-database-to-improve-my-privacy/

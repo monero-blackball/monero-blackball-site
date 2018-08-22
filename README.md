@@ -18,13 +18,13 @@ To run the tool, navigate to the latest CLI or GUI tools available on [getmonero
 
 `monero-blockchain-blackball ~/.bitmonero/lmdb /path/to/other/blockchain/database`
 
-Example: `monero-blockchain-blackball ~/.bitmonero/lmdb /home/monero_fork/lmdb`
+Example: `monero-blockchain-blackball ~/.bitmonero/lmdb /home/monero_fork/lmdb --rct-only`
 
 ### Windows
 
 `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb \path\to\other\blockchain\database`
 
-Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\ProgramData\monero_fork\lmdb`
+Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\ProgramData\monero_fork\lmdb --rct-only`
 
 ---
 

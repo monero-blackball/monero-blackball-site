@@ -58,6 +58,20 @@ This file contains outputs from the following:
 * Monerov6 (XMO, XMC) through 27 August 2018
 * MoneroV (XMV) through 27 August 2018
 
+### Pools
+
+You can also include outputs that are known to be spent in public pool transactions. This file should be used in addendum to any of the ones above until they work together (WIP). See [sneurlax's work](https://github.com/sneurlax/xmreuse).
+
+[Direct download link](https://drive.google.com/uc?export=download&id=1bFHsAXkN01tElcjU2dtJuLtqMCU_lDuk)
+
+[Signature file](https://drive.google.com/uc?export=download&id=1xbcmvm2v1l-DVARghCgGInYfz_B3m2gl)
+
+This file contains outputs from the following:
+
+* HashVault through 26 August 2018
+* XMRPool through 26 August 2018
+* SupportXMR through 27 August 2018
+
 ### Instructions for Use
 
 Download the file and place it anywhere.

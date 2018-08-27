@@ -60,7 +60,7 @@ This file contains outputs from the following:
 
 ### Pools
 
-You can also include outputs that are known to be spent in public pool transactions. This file should be used in addendum to any of the ones above until they work together (WIP). See [sneurlax's work](https://github.com/sneurlax/xmreuse).
+You can also include outputs that are known to be spent in public pool transactions. This file should be used in addition to any of the ones above until they work together (WIP). See [sneurlax's work](https://github.com/sneurlax/xmreuse).
 
 [Direct download link](https://drive.google.com/uc?export=download&id=1bFHsAXkN01tElcjU2dtJuLtqMCU_lDuk)
 

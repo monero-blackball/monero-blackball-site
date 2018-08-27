@@ -28,11 +28,11 @@ Example: `monero-blockchain-blackball.exe C:\ProgramData\bitmonero\lmdb C:\Progr
 
 ---
 
-Now, the file needs to be converted to work with the wallet software. Follow [these steps](https://monero.stackexchange.com/questions/8225/how-can-i-use-monero-blockchain-blackball-to-improve-my-privacy/) to convert the file to a wallet-readable format. This is honestly the most tricky part.
+Now, the file needs to be converted to work with the wallet software. Follow [these steps](https://monero.stackexchange.com/questions/10042/how-can-i-convert-a-blackball-lmdb-database-into-a-wallet-readable-format) to convert the file to a wallet-readable format. This is honestly the most tricky part.
 
 # Downloading our blackball databases
 
-We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. If you are worried about attacks on the network such as chain splits, check the dates to make sure they are recent. The RingCT-only database may be more effective, since it is smaller and can be updated more easily.
+We offer two blackball databases. One is light, small, and only contains recent RingCT (RCT) outputs. The other is a verbose database with as many bad outputs as possible. Check the dates - it's simpler for us to update the smaller databases, so they may be updated more frequently.
 
 ### RingCT Only
 
@@ -42,8 +42,9 @@ We offer two blackball databases. One is light, small, and only contains recent 
 
 This file contains outputs from the following:
 
-* Monero from January 2017 through 20 August 2018
-* Monerov6 (XMO, XMC) through 15 August 2018
+* Monero from January 2017 through 27 August 2018
+* Monerov6 (XMO, XMC) through 27 August 2018
+* MoneroV (XMV) through 27 August 2018
 
 ### Verbose
 
@@ -53,8 +54,9 @@ This file contains outputs from the following:
 
 This file contains outputs from the following:
 
-* Monero through 20 August 2018
-* Monerov6 (XMO, XMC) through 15 August 2018
+* Monero through 27 August 2018
+* Monerov6 (XMO, XMC) through 27 August 2018
+* MoneroV (XMV) through 27 August 2018
 
 ### Instructions for Use
 

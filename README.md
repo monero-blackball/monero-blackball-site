@@ -69,7 +69,7 @@ You can also include outputs that are known to be spent in public pool transacti
 This file contains outputs from the following:
 
 * HashVault through 26 August 2018
-* XMRPool through 26 August 2018
+* XMRPool through 4 September 2018
 * SupportXMR through 27 August 2018
 
 ### Instructions for Use

@@ -36,7 +36,7 @@ We offer two blackball (spent output) databases. One is light, small, and only c
 
 ### RingCT Only
 
-[Direct download link](/"Blackball Databases"/rct-only/rct-2019-03-12)
+[Direct download link](/monero-blackball-site/Blackball Databases/rct-only/rct-only-2019-03-12)
 
 This file contains outputs from the following:
 
@@ -48,7 +48,7 @@ This file contains outputs from the following:
 
 ### Verbose
 
-[Direct download link](/"Blackball Databases"/all/all-2019-03-12)
+[Direct download link](/monero-blackball-site/Blackball Databases/all/all-2019-03-12)
 
 This file contains outputs from the following:
 

@@ -1,3 +1,5 @@
+_Note: it is not recommended to import outputs lists into wallets at the time of writing, since it is unlikely that any of these outputs will be selected in your rings at this point. It's more likely that someone will advise you to download a malicious list. Most of these resources were created in 2018 or 2019, so they are likely not very useful for later Monero user behaviors._
+
 Monero is a secure, private cryptocurrency. You can learn more about Monero at [getmonero.org](https://getmonero.org).
 
 `monero-blockhain-mark-spent-outputs` (previously `monero-blockchain-blackball`) is a privacy-enhancing tool that can increase the effectiveness of ring signatures. This tool can be used to avoid including outputs that are known to be spent in other transactions. If you exclude these known-spent outputs, other higher-quality outputs can be included in your ring signatures, thus improving your privacy.
@@ -36,7 +38,7 @@ We offer two blackball (spent output) databases. One is light, small, and only c
 
 ### RingCT Only
 
-[Direct download link](/monero-blackball-site/Blackball Databases/rct-only/rct-only-2019-03-12)
+[Download link](https://github.com/monero-blackball/monero-blackball-site/blob/master/Blackball%20Databases/rct-only/rct-only-2019-03-12)
 
 This file contains outputs from the following:
 
@@ -48,7 +50,7 @@ This file contains outputs from the following:
 
 ### Verbose
 
-[Direct download link](/monero-blackball-site/Blackball Databases/all/all-2019-03-12)
+[Download link](https://github.com/monero-blackball/monero-blackball-site/blob/master/Blackball%20Databases/all/all-2019-03-12)
 
 This file contains outputs from the following:
 
@@ -59,8 +61,6 @@ This file contains outputs from the following:
 * Monerov9 through 12 March 2019
 
 ### Pools
-
-This section has not been updated in some time.
 
 You can also include outputs that are known to be spent in public pool transactions. This file should be used in addition to any of the ones above until they work together (WIP). See [sneurlax's work](https://github.com/sneurlax/xmreuse).
 
@@ -83,6 +83,14 @@ In the GUI, you can go to Advanced -> Shared RingDB. Then under "Filename with o
 In the CLI, run `blackball <filename> add`
 
 Note that the file path in the wallet must not contain any spaces.
+
+### Full Blockchain LMDB Downloads
+
+* monerov through 2018-11-28: [Download Link](https://drive.google.com/drive/folders/1NwT5H2FcDjURuewLdgTz-ol--G6wkvs9?usp=sharing)
+* monerov6 through 2019-03-13: [Download Link](https://drive.google.com/drive/folders/1J2igUiwXrOgklcbvu7p3cDbvnzIt2duh?usp=sharing)
+* monerov7 through 2019-03-13: [Download Link](https://drive.google.com/drive/folders/1PzhFYc6aX9vYHo1L8sJZJvVz9kZ4fzYi?usp=sharing)
+* monerov9 through 2019-03-13: [Download Link](https://drive.google.com/drive/folders/1ScVYeYvKtHUl-VQ8ODD0HU9Fk8k_7vd2?usp=sharing)
+* monerov11 through 2019--11-19: [Download Link](https://drive.google.com/drive/folders/1tH2NNxRTYIL8ss7QoVREw_m_-l-vux5V?usp=sharing)
 
 # More Information
 
